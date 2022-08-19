@@ -24,11 +24,15 @@ Ohmyfood est un site 100% mobile qui répertorie les menus de restaurants gastro
 -   Autoprefixer / PostCSS / PostCSS-CLI
 -   Prettier
 
+---
+
 ## Convention
 
 -   **Prettier** Indentation de 4 espaces
 -   **Autoprefixer** Prefix pour les 4 dernières versions des navigateurs
 
+---
+
 ## Installation
 
-Work In Progress :)
+**npm install**
