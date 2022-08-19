@@ -1,0 +1,21 @@
+.localization {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+
+    background: #EAEAEA;
+
+    &__position {
+        margin: 0;
+
+        font-size: rem(16px);
+        font-weight: 500;
+
+        opacity: .7;
+
+        & > i {
+            margin-right: 18px;
+        }
+    }
+}
