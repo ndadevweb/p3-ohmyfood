@@ -1,0 +1,19 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass ./sass/main.scss:./public/css/style.css -w --style compressed",
+    "prefix": "postcss ./public/css/style.css --use autoprefixer -d./public/css/prefixed/"
+  },
+  "author": "NicolasD",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "dependencies": {
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "postcss-cli": "^10.0.0",
+    "sass": "^1.54.4"
+  }
+}
