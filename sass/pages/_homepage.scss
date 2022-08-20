@@ -38,3 +38,20 @@
         opacity: .7;
     }
 }
+
+.process {
+    margin-top: 50px;
+
+    & > h2 {
+        margin: 0 0 32px 18px;
+    }
+
+    &__steps {
+        margin: 0 20px 10px 30px;
+        list-style: none;
+
+        & > li {
+            margin-bottom: 20px;
+        }
+    }
+}

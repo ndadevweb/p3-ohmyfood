@@ -5,6 +5,7 @@
 @import 'vendors/normalize';
 
 @import
+    'base/reset',
     'base/base',
     'base/typography',
     'base/helpers';
@@ -13,6 +14,8 @@
     'layout/header',
     'layout/footer';
 
-@import 'components/buttons';
+@import
+    'components/buttons',
+    'components/cards';
 
 @import 'pages/homepage';
