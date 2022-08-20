@@ -19,3 +19,22 @@
         }
     }
 }
+
+.explore-restaurants {
+    min-height: 287px;
+    padding: rem(43px) 0 rem(55px) 0;
+    background: #F6F6F6;
+    text-align: center;
+
+    & > h1 {
+        margin: 0 45px;
+        font-size: rem(24px);
+        font-weight: 700;
+    }
+
+    & > p {
+        margin-bottom: 35px;
+        font-size: rem(18px);
+        opacity: .7;
+    }
+}
