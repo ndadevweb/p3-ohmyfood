@@ -1,0 +1,55 @@
+.card {
+    border-radius: 16px;
+}
+
+.card-informations {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 75px;
+    border-radius: 16px;
+    box-shadow: 0 5px 15px 2px rgba(0, 0, 0, .1);
+
+    &__icon {
+        margin-right: 25px;
+        opacity: .5;
+        font-size: rem(18px);
+    }
+
+    &__icon--purple {
+        opacity: 1;
+        color: $color-primary;
+    }
+
+    &__text {
+        color: $color-black;
+        font-weight: 500;
+    }
+}
+
+.card__chip {
+    width: 25px;
+    height: 25px;
+    margin: 0 22px 0 -12px;
+    border-radius: 50%;
+}
+
+.card__chip--purple {
+    background: $color-primary;
+    color: $color-white;
+    font-size: rem(14px);
+    text-align: center;
+    line-height: 27px;
+}
+
+.card--gray {
+    background: #F6F6F6;
+}
+
+.card--pink {
+    background: #F5EDFF;
+}
+
+.card--white {
+    background: $color-white;
+}
