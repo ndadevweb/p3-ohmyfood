@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -12,4 +13,8 @@ main {
     position: relative;
     z-index: 900;
     min-height: 100px;
+}
+
+a {
+    text-decoration: none;
 }
