@@ -8,7 +8,7 @@
     line-height: 50px;
 
     &--classic {
-        background-image: linear-gradient(to top, $color-primary, $color-secondary);
+        background-image: linear-gradient(360deg, $color-primary, $color-secondary);
         box-shadow: 0 5px 5px 2px rgba(0, 0, 0, .1);
         color: $color-white;
         transition: box-shadow .5s;

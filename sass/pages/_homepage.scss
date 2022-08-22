@@ -23,7 +23,7 @@
 
 .explore-restaurants {
     min-height: 287px;
-    padding: rem(43px) 0 rem(55px) 0;
+    padding: rem(40px) 0 rem(55px) 0;
     background: $color-gray;
     text-align: center;
 
@@ -34,6 +34,7 @@
     }
 
     & > p {
+        margin-top: 15px;
         margin-bottom: 35px;
         font-size: rem(18px);
         opacity: .7;
