@@ -10,3 +10,17 @@
         $delay: $delay + $incrementTo;
     }
 }
+
+
+@mixin responsive($breakpointName, $breakpoints: $breakpoints) {
+    $breakpoint: map-get($breakpoints, $breakpointName);
+
+    @if $breakpoint == null {
+        @content;
+    } @else {
+
+        @media screen and (min-width: #{$breakpoint}) {
+            @content;
+        }
+    }
+}

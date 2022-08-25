@@ -16,24 +16,24 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap" rel="stylesheet" />
     </head>
     <body>
-        <div class="container">
-            <header class="header">
-                <img src="./images/logo/ohmyfood@2x.svg" alt="ohmyfood - logo" class="header__logo" />
-            </header>
+        <header class="header">
+            <img src="./images/logo/ohmyfood@2x.svg" alt="ohmyfood - logo" class="header__logo" />
+        </header>
 
-            <main>
-                <div class="localization">
-                    <p class="localization__position"><i class="fa-solid fa-location-dot"></i>Paris, Belleville</p>
-                </div>
+        <main>
+            <div class="localization">
+                <p class="localization__position"><i class="fa-solid fa-location-dot"></i>Paris, Belleville</p>
+            </div>
 
-                <section class="explore-restaurants">
-                    <h1>Réservez le menu qui vous convient</h1>
-                    <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
-                    <a href="#restaurants" class="btn btn--classic">Explorer nos restaurants</a>
-                </section>
+            <section class="explore-restaurants">
+                <h1>Réservez le menu qui vous convient</h1>
+                <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
+                <a href="#restaurants" class="btn btn--classic">Explorer nos restaurants</a>
+            </section>
 
-                <section class="process">
-                    <h2>Fonctionnement</h2>
+            <section class="process">
+                <div class="container">
+                    <h2 class="process__heading">Fonctionnement</h2>
 
                     <ul class="process__steps">
                         <li class="card-informations card--gray">
@@ -52,11 +52,13 @@
                             <span class="card-informations__text">Dégustez au restaurant</span>
                         </li>
                     </ul>
-                </section>
+                </div>
+            </section>
 
-                <section id="restaurants" class="restaurants">
-                    <h2>Restaurant</h2>
+            <section id="restaurants" class="container restaurants">
+                <h2 class="restaurants__heading">Restaurant</h2>
 
+                <div class="restaurants__cards">
                     <a href="./restaurant-la-palette-du-gout.html" class="card">
                         <img src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Un plat de chez La palette du goût" class="card__image" />
                         <span class="badge badge--green badge--top-right">Nouveau</span>
@@ -99,10 +101,12 @@
                             <i class="heart fa-solid fa-heart"></i>
                         </div>
                     </a>
-                </section>
-            </main>
+                </div>
+            </section>
+        </main>
 
-            <footer class="footer">
+        <footer class="footer">
+            <div class="container">
                 <h3 class="footer__heading">ohmyfood</h3>
                 <nav class="footer__navigation">
                     <ul>
@@ -116,8 +120,8 @@
                         <li><a href="mailto:contact@ohmyfood.com">Contact</a></li>
                     </ul>
                 </nav>
-            </footer>
-        </div>
+            </div>
+        </footer>
 
         <!-- font awesome -->
         <script src="https://kit.fontawesome.com/994e9d2d58.js" crossorigin="anonymous"></script>

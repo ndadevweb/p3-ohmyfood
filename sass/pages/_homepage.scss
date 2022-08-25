@@ -34,8 +34,8 @@
     }
 
     & > p {
-        margin-top: 15px;
-        margin-bottom: 35px;
+        margin: 15px auto 35px auto;
+        padding: auto 10px auto 10px;
         font-size: rem(18px);
         opacity: .7;
     }
@@ -46,16 +46,28 @@
     padding: 50px 0;
     background: $color-white;
 
-    & > h2 {
+    &__heading {
         margin: 0 0 32px 18px;
     }
 
     &__steps {
+
         margin: 0 20px 10px 30px;
         list-style: none;
 
+        @include responsive('large') {
+            display: flex;
+            justify-content: space-between;
+            column-gap: 35px;
+        }
+
         & > li {
             margin-bottom: 20px;
+
+            @include responsive('large') {
+                padding-right: 35px;
+                flex-basis: calc(100% / 3);
+            }
         }
     }
 }
@@ -65,7 +77,20 @@
     padding: 60px 0 65px 0;
     background: $color-gray;
 
-    & > h2 {
+    @include responsive('medium') {
+
+        &__cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            & > .card {
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+        }
+    }
+
+    &__heading {
         margin: 0 0 32px 18px;
     }
 }
