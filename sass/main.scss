@@ -1,7 +1,8 @@
 @import
     'abstracts/variables',
     'abstracts/functions',
-    'abstracts/placeholders';
+    'abstracts/placeholders',
+    'abstracts/mixins';
 
 @import 'vendors/normalize';
 
@@ -16,9 +17,12 @@
     'layout/footer';
 
 @import
+    'components/animations',
     'components/buttons',
     'components/cards',
     'components/badges',
     'components/hearts';
 
-@import 'pages/homepage';
+@import
+    'pages/homepage',
+    'pages/restaurant';

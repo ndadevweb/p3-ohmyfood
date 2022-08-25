@@ -43,7 +43,8 @@
 
 
 .process {
-    margin-top: 50px;
+    padding: 50px 0;
+    background: $color-white;
 
     & > h2 {
         margin: 0 0 32px 18px;
@@ -61,7 +62,6 @@
 
 
 .restaurants {
-    margin-top: 68px;
     padding: 60px 0 65px 0;
     background: $color-gray;
 

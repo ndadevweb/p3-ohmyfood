@@ -1,13 +1,26 @@
 .header {
-    display: flex;
-    justify-content: center;
     position: relative;
     z-index: 1000;
     min-height: 63px;
-
+    background: $color-white;
     box-shadow: 0 0 5px rgba(0,0,0, .3);
 
     &__logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
         width: 165px;
+        margin: 0 auto;
+    }
+
+    &__back {
+        position: absolute;
+        top: 50%;
+        left: 30px;
+        transform: translateY(-50%);
+        color: $color-black;
+        font-size: rem(22px);
     }
 }

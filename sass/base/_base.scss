@@ -9,6 +9,10 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    background: $color-gray;
+}
+
 main {
     position: relative;
     z-index: 900;
