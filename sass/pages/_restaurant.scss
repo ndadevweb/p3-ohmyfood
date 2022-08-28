@@ -83,8 +83,9 @@
                 &::before {
                     content: '';
                     display: block;
-                    position: absolute;
-                    bottom: -8px;
+
+                    @include position(absolute, null, null, -8px, null);
+
                     width: 40px;
                     border-bottom: 3px solid $color-tertiary;
                 }
